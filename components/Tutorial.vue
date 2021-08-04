@@ -47,7 +47,7 @@ export default {
     },
     close() {
       this.$refs.myBottomSheet.close();
-    }
+    },
     reloadme(){
 
       location.reload()
