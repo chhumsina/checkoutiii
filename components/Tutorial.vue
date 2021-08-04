@@ -4,7 +4,7 @@
       <h1>Lorem Ipsum</h1>
     <h2>What is Lorem Ipsum?</h2>
     <input/>
-    <buttton @click="reloadme">Reload</buttton>
+    <button @click="reloadme">Reload</button>
     <p>
       <strong>Lorem Ipsum</strong> is simply dummy text
     </p>
