@@ -38,7 +38,7 @@ export default {
     setTimeout(() => {
       
     this.open()
-      }, 2000);
+      }, 500);
   },
   methods: {
     open() {
