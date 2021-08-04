@@ -4,6 +4,7 @@
       <h1>Lorem Ipsum</h1>
     <h2>What is Lorem Ipsum?</h2>
     <input/>
+    <buttton @click="reloadme">Reload</buttton>
     <p>
       <strong>Lorem Ipsum</strong> is simply dummy text
     </p>
@@ -45,8 +46,11 @@ export default {
       this.$refs.myBottomSheet.open();
     },
     close() {
-      location.reload()
       this.$refs.myBottomSheet.close();
+    }
+    reloadme(){
+
+      location.reload()
     }
   }
 }
