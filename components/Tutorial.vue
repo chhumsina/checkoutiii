@@ -35,7 +35,10 @@ export default {
     VueBottomSheet
   },
   mounted(){
+    setTimeout(() => {
+      
     this.open()
+      }, 2000);
   },
   methods: {
     open() {
